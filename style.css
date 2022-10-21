@@ -1,5 +1,6 @@
 :root {
-    --hdr-color:rgba(30, 110, 44, 0.536);
+    --hdr-color:rgba(6, 123, 131, 0.536);
+    --background-color:rgb(177, 180, 168);
 }
 
 /* Remove default margin */
@@ -17,7 +18,7 @@ dd {
 }
 
 header {
-    background-color: rgb(177, 180, 168);
+    background-color: var(--background-color);
     color:var(--hdr-color);
 }
 
@@ -44,8 +45,12 @@ body {
     grid-auto-flow: row;
     width: min (95%, 70rem);
     box-sizing: border-box;
-    margin-top:1em;
+    margin:2em;
+}
 
+.item {
+    padding:2rem;
+    border-radius: 1rem;
 }
 
 .grid img {
@@ -66,10 +71,6 @@ body {
     grid-area: taig;
 }
 
-.item {
-    padding:2rem;
-    border-radius: 1rem;
-}
 
 .bg1 {
     background-color: darkgray;
@@ -105,4 +106,5 @@ body {
     font-weight: bold;
     text-decoration: underline;
     font-style: var(--hdr-color);
+    text-shadow:1px 1px 0 forestgreen;
 }
