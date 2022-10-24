@@ -22,7 +22,7 @@ title: Robin's Projects
 email: robin@g4giy.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Electronics, Ham Radio, Arduino, ESP8266, 3D Printing, Model Engineering
-baseurl: "/test-website" # the subpath of your site, e.g. /blog
+baseurl: "/projects" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  RobinHarris
 
