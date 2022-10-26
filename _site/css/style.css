@@ -20,8 +20,34 @@ dd {
 header {
     background-color: var(--background-color);
     color:var(--hdr-color);
-    padding-top: 2em;
+    padding-top:5px;
+    }
+
+ol,ul {
+    list-style: none;
 }
+
+#mainmenu {
+    width: 800px;
+    margin:10px;
+}
+
+#mainmenu li {
+    display:inline-block;
+    width:100px;
+    float: left;
+    margin-left:2px;
+    border:1px solid black;
+}    
+
+#mainmenu a {
+    display:block;
+    padding:3px;
+    text-decoration: none;
+    background-color: white;
+    color:009;
+}
+
 
 body {
     min-height: 100vh;
@@ -87,6 +113,11 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
+}
+
+.flex-container li {
+    margin: 0px 20px;
+    float: left
 }
 
 .flex-item {
