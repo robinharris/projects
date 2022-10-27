@@ -30,10 +30,15 @@ github_username:  RobinHarris
 author: Robin Harris
 
 # Build settings
-# theme: minima
-plugins:
-  - jekyll-feed
+permalink: pretty
+markdown: kramdown
 
+gems:
+- jekyll-feed
+- jekyll-autoprefixer
+
+sass:
+  sass_dir: _sass
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
