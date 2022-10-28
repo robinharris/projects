@@ -139,3 +139,9 @@ body {
     font-style: var(--hdr-color);
     text-shadow:1px 1px 0 forestgreen;
 }
+
+.title {
+    text-align: center;
+    font-weight: 800;
+    color: green;
+}
