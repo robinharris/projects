@@ -146,7 +146,7 @@ body {
     font-size: 1.5em;
     color: green;
     border:4px double green;
-    width:700px;
+    width:600px;
     margin:auto;
 }
 
@@ -158,10 +158,17 @@ body {
 }
 
 .text img {
-    width:50%;
+    width:40%;
     height: auto;
-    float:left;
     margin: 25px;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
 }
 
 .text p{

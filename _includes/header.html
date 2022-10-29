@@ -1,10 +1,10 @@
 <header>
 	<nav class="flex-container">
 		<ul>
+			<li><a href="{{site.baseurl }}/index.html">Home</a></li>
 			{% for page in site.pages %} {% if page.title %}
 			<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 			{% endif %} {% endfor %}
-			<li><a href="">Another Item</a></li>
 		</ul>
 	</nav>
 </header>
