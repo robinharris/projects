@@ -1,10 +1,42 @@
 ---
-layout: page
+layout: chapter
 title: Taig
 ---
 
 <div class=title>
-    <h2> Starting with no experience of machining</h2>
+    <h2> No experience of machining</h2>
     <H3>The journey of a novice</H3>
 </div>
+
+    <div class="text">
+        <p>
+            Before purchasing a lathe, my experience of metalwork extended to two years at school in which time I made a hammer. &#128580
+        </p>
+    
+        <p>
+            My lathe is a Taig Microlathe II puchased second-hand for around £300 and complete with motor and baseplate..
+        </p>
+        <img src="{{ site.baseurl }}/images/taig-side.jpg" alt="Taig" class="left">
+        <p>
+            Tthe motor that came with the lathe was a 1/4hp AC but this photo shows the latest arrangement.  The motor has been replaced with a sewing maching motor and a new baseplate used.
+            This one is a heavy piece of oak kitchen worktop faced with 2mm steel plate.
+        </p>
+        <p>
+            The motor is a type of stepper motor and its controller provides variable speed from around 100rpm to 2500rpm.
+            It comes with a pedal speed controller, as used with sewing machines, based around a magnet and a Hall Effect sensor.
+            Two problems quickly emerge though - a magnet around a lathe attracts swarf and the precision is poor. 
+
+            The sensor provides a variable voltage output and can easily be replaced with a potentiometer.
+
+            The values used are partly calculated and partly trial and error designed to give the smoothest liner response
+            to the rotation of the potentiometer.  Using s reverse logarithmic potentiometer significantly helped in this respect.
+        </p>
+        <img src="{{ site.baseurl }}/images/speed_control.jpg" alt="Speed Control" class="right">
+        <p>
+            Originally the Taig uses a stepped pulley wheel and with an opposite one on the motor shaft the speed range is quite wide.
+            With a variable speed motor this is obviosuly not required.  First I tried GT2 pulley wheels and 3mm belt.
+            Although this was cheap and worked initally, the belt soon broke.  The second version uses V-belts and pulleys which so far have worked perfectly.
+        </p>
+        <img src="{{site.baseurl }}/images/taig-motor.jpg" alt="Pulleys" class="left">
+    </div>
 
