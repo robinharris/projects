@@ -35,7 +35,7 @@ ol,ul {
 #mainmenu li {
     display:inline-block;
     width:100px;
-    float: left;
+    float:left;
     margin-left:2px;
     border:1px solid black;
 }    
@@ -48,98 +48,6 @@ ol,ul {
     color:009;
 }
 
-
-body {
-    min-height: 100vh;
-    background-color: rgb(177, 180, 168);
-    line-height: 1.5;
-}
-
-.figure {
-    max-width:100%;
-    border-radius: 10%;
-}
-
-.flex {
-    display:flex;
-    gap: 1rem;
-}
-
-.grid {
-    display:grid;
-    gap:1rem;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-flow: row;
-    width: min (80%, 50rem);
-    box-sizing: border-box;
-    margin:1em;
-}
-
-.item {
-    padding:2rem;
-    border-radius: 1rem;
-}
-
-.grid img {
-    width: 10rem;
-    aspect-ratio: 1;
-    border-radius: 10%;
-}
-
-.wx-station-item {
-    grid-area: wx;
-}
-
-.efhw-item {
-    grid-area: efhw;
-}
-
-.taig-item {
-    grid-area: taig;
-}
-
-
-.bg1 {
-    background-color: darkgray;
-}
-.bg2 {
-    background-color: rgb(165, 196, 87);
-}
-.bg3 {
-    background-color: rgb(81, 153, 188);
-}
-
-.flex-container {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.flex-container li {
-    margin: 0px 20px;
-    float: left
-}
-
-.flex-item {
-    padding:10px;
-}
-
-.flex-item img {
-    border-radius: 10%;
-    margin:0em 5em;
-    border-style:solid;
-    border-color: var(--hdr-color);
-    border-width: 2px;
-}
-
-.flex-item-1 {
-    font-size: 4em;
-    font-weight: bold;
-    text-decoration: underline;
-    font-style: var(--hdr-color);
-    text-shadow:1px 1px 0 forestgreen;
-}
-
 .title {
     text-align: center;
     font-weight: 800;
@@ -150,31 +58,35 @@ body {
     margin:auto;
 }
 
-.text {
-    text-align:left;
-    margin:25px;
-    color: rgb(33, 126, 232);
-    line-height: 1.5em;
+.main {
+
 }
 
-.text img {
-    width:40%;
-    height: auto;
-    margin: 25px;
+ul.main {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
 }
 
-.left {
-    float:left;
+ul.main li {
+    font-size: 1.5em;
+    padding:20px;
 }
 
-.right {
-    float:right;
+li img {
+    max-height: 50vh;
+  }
+
+.item1 {
+    background-color: aqua;
+}
+.item2 {
+    background-color: goldenrod;
+}
+.item3 {
+    background-color: orange;
 }
 
-.text p{
-    margin-bottom: 2em;
-}
-
-.article {
-    display:inline;
+p {
+    margin-bottom: 1.5em;
 }

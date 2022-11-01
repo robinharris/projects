@@ -58,35 +58,31 @@ ol,ul {
     margin:auto;
 }
 
-.main {
-
+.text {
+    text-align:left;
+    margin:25px;
+    color: rgb(33, 126, 232);
+    line-height: 1.5em;
 }
 
-ul.main {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2em;
+.text img {
+    width:40%;
+    height: auto;
+    margin: 25px;
 }
 
-ul.main li {
-    font-size: 1.5em;
-    padding:20px;
+.left {
+    float:left;
 }
 
-li img {
-    max-height: 50vh;
-  }
-
-.item1 {
-    background-color: aqua;
-}
-.item2 {
-    background-color: goldenrod;
-}
-.item3 {
-    background-color: orange;
+.right {
+    float:right;
 }
 
-p {
-    margin-bottom: 1.5em;
+.text p{
+    margin-bottom: 2em;
+}
+
+.article {
+    display:inline;
 }
